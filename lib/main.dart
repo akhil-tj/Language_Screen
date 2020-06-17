@@ -13,6 +13,7 @@ class Language extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
+          title: Text('Language'),
           backgroundColor: Colors.blue,
           leading: Icon(Icons.arrow_back),
           actions: [
